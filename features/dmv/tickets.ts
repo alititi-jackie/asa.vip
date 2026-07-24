@@ -32,8 +32,8 @@ export const stateDataMap: Record<string, StateData> = {
     entries: [
       {
         label: 'NYC Finance CityPay — 停车/红灯/超速拍照罚单',
-        url: 'https://a836-citypay.nyc.gov/citypay/ParkingCamera',
-        description: '适合纽约市停车罚单、红灯拍照罚单（Red Light Camera）、超速拍照罚单（Speed Camera）等。可输入罚单号或车牌号查询和缴费。',
+        url: 'https://www.nyc.gov/citypay',
+        description: '适合纽约市停车罚单、红灯拍照罚单（Red Light Camera）、超速拍照罚单（Speed Camera）等。进入 NYC CityPay 后选择 Parking Tickets / Camera Violations 查询和缴费。',
         types: ['parking', 'red-light', 'speed-camera'],
         isOfficial: true,
       },
