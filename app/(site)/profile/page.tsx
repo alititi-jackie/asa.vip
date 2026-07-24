@@ -94,8 +94,8 @@ export default async function ProfilePage() {
         </section>
 
         <section className="overflow-hidden rounded-2xl bg-white shadow-[0_2px_14px_rgba(0,0,0,0.06)] ring-1 ring-black/5">
-          <MenuRow href="/profile/directory" title="📍 地址电话本" description="保存常用地址，点击打开地图" />
-          <MenuRow href="/navigation/my" title="🧭 管理我的导航" description="添加和整理自己的常用网站" />
+          <MenuRow href="/profile/directory" title="📍 我的地址电话本" description="仅我自己可查看，保存常用地址，点击打开地图" />
+          <MenuRow href="/navigation/my" title="🧭 我的导航" description="仅我自己可查看，添加和整理自己的常用网站" />
 
           <details className="group border-b border-zinc-100 open:m-2 open:overflow-hidden open:rounded-2xl open:border open:border-[#1976d2] open:bg-white">
             <summary className="m-2 flex cursor-pointer list-none items-center justify-between rounded-2xl border border-blue-100 bg-blue-50/70 p-4 transition hover:bg-blue-50 group-open:m-0 group-open:rounded-none group-open:border-0 group-open:bg-white group-open:hover:bg-zinc-50">
